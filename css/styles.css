@@ -1,4 +1,4 @@
-﻿/* === Google Fonts ===*/
+/* === Google Fonts ===*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -120,7 +120,8 @@ body.dark-theme {
 
 .scale-cv .education_container,
 .scale-cv .experience_container,
-.scale-cv .certificate_container{
+.scale-cv .certificate_container,
+.scale-cv .project_container{
     gap:1rem;
 }
 
@@ -475,11 +476,12 @@ home_icon{
     margin-right:.75rem;
 }
 
-/* ===== Certificates =====*/
+/* ===== Certificates / Projects =====*/
 
-.certificate_title{
+.certificate_title,
+.project_title{
     font-size: var(--h3-font-size);
-    margin-bottom:var(--mb-1);
+    margin-bottom: var(--mb-1);
 }
 
 /* ====== REFERENCES ===== */
